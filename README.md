@@ -3,7 +3,14 @@
 # 🎙️ Sonus
 [![GitHub release](https://img.shields.io/github/v/release/asheohto/Sonus?style=for-the-badge)](https://github.com/asheohto/Sonus/releases)
 [![GitHub All Releases](https://img.shields.io/github/downloads/asheohto/Sonus/total?style=for-the-badge)](https://github.com/asheohto/Sonus/releases)
+[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/omoretti)
 </div>
+
+## ☕ Support
+
+If this tool helped clean up your audio devices, consider supporting the development!
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/omoretti)
 
 > [!IMPORTANT]
 > ⚠️ Disclaimer
