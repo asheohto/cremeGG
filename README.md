@@ -8,7 +8,7 @@
 
 ## ☕ Support
 
-If this tool helped clean up your audio devices, consider supporting the development!
+If this tool helped clean up your audio devices, consider supporting me!
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/omoretti)
 
