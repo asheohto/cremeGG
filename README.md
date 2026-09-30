@@ -5,18 +5,10 @@
   # Cremey
 
   Steelseries's virtual devices annihilator.
-
-<<<<<<< HEAD
-  [![Latest Release](https://img.shields.io/github/v/release/ashemarya/cremey?style=for-the-badge&logo=tag&color=f39c12)](https://github.com/ashemarya/cremey/releases/latest)
-  [![Downloads](https://img.shields.io/github/downloads/ashemarya/cremey/total?style=for-the-badge&logo=github&color=3498db)]([https://github.com/ashemarya/cremey/releases](https://github.com/ashemarya/cremey/releases/tag/v1.0))
-  [![License](https://img.shields.io/badge/License-MIT-2ecc71?style=for-the-badge)](LICENSE)
-  [![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-omoretti-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/omoretti)
-=======
 [![Latest Release](https://img.shields.io/github/v/release/ashemarya/cremey?style=for-the-badge&logo=tag&color=f39c12)](https://github.com/ashemarya/cremey/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/ashemarya/cremey/total?style=for-the-badge&logo=github&color=3498db)](https://github.com/ashemarya/cremey/releases)
 [![License](https://img.shields.io/badge/License-MIT-2ecc71?style=for-the-badge)](LICENSE)
 [![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-omoretti-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/omoretti)
->>>>>>> 153bb315020d197616a998ac129fbadc50970692
 
 </div>
 
