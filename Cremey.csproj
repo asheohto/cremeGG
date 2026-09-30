@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
+    <PublishAot>true</PublishAot>
+    <_SuppressWinFormsTrimError>true</_SuppressWinFormsTrimError>
+    <OptimizationPreference>Speed</OptimizationPreference>
+    <IlcOptimizationPreference>Speed</IlcOptimizationPreference>
+    <ApplicationIcon>assets\logo.ico</ApplicationIcon>
+    <AssemblyName>Cremey</AssemblyName>
+    <RootNamespace>Cremey</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="SoundVolumeView.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="CremeyConfig.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
+

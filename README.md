@@ -1,80 +1,82 @@
 <div align="center">
-    
-# 🎙️ Sonus
-[![GitHub release](https://img.shields.io/github/v/release/asheohto/Sonus?style=for-the-badge)](https://github.com/asheohto/Sonus/releases)
-[![GitHub All Releases](https://img.shields.io/github/downloads/asheohto/Sonus/total?style=for-the-badge)](https://github.com/asheohto/Sonus/releases)
-[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/omoretti)
+
+  <img src="assets/logo.png" alt="Cremey Logo" width="180" />
+
+  # Cremey
+
+  Steelseries's virtual devices annihilator.
+
+<<<<<<< HEAD
+  [![Latest Release](https://img.shields.io/github/v/release/ashemarya/cremey?style=for-the-badge&logo=tag&color=f39c12)](https://github.com/ashemarya/cremey/releases/latest)
+  [![Downloads](https://img.shields.io/github/downloads/ashemarya/cremey/total?style=for-the-badge&logo=github&color=3498db)]([https://github.com/ashemarya/cremey/releases](https://github.com/ashemarya/cremey/releases/tag/v1.0))
+  [![License](https://img.shields.io/badge/License-MIT-2ecc71?style=for-the-badge)](LICENSE)
+  [![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-omoretti-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/omoretti)
+=======
+[![Latest Release](https://img.shields.io/github/v/release/ashemarya/cremey?style=for-the-badge&logo=tag&color=f39c12)](https://github.com/ashemarya/cremey/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/ashemarya/cremey/total?style=for-the-badge&logo=github&color=3498db)](https://github.com/ashemarya/cremey/releases)
+[![License](https://img.shields.io/badge/License-MIT-2ecc71?style=for-the-badge)](LICENSE)
+[![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-omoretti-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/omoretti)
+>>>>>>> 153bb315020d197616a998ac129fbadc50970692
+
 </div>
 
-## ☕ Support
+---
 
-If this tool helped clean up your audio devices, consider supporting me!
+## Support
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/omoretti)
+<a href='https://ko-fi.com/omoretti' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
-> [!IMPORTANT]
-> ⚠️ Disclaimer
->
-> **No Affiliation**
->
-> This project, and its contributors, are not affiliated with, authorized by, endorsed by, or in any way officially connected with SteelSeries ApS, or any of their subsidiaries or affiliates. **This is an independent, non-profit, and unofficial utility developed by the community with the goal of optimizing the user's audio device management.**
->
-> **Trademarks**
->
-> The names "SteelSeries", "SteelSeries GG", and "Sonar", as well as related names, marks, emblems, and images, are registered trademarks of their respective owners. Any use of these trademarks is for identification and reference purposes only and does not imply any association with the trademark holder. We have no intention of infringing upon these trademarks or causing harm to the trademark holders.
->
-> **Limitation of Liability**
->
-> This application is provided "AS IS", and you use it at your own risk. In no event shall the developers or contributors be liable for any claim, damages, or other liability, including any legal consequences, arising from, out of, or in connection with the software or the use or other dealings in the software. The responsibility for any and all outcomes of using this software rests entirely with the user.
->
-> **Third-Party Software**
->
-> This project utilizes **SoundVolumeView** by NirSoft. It is a freeware utility used here in accordance with its license rights for redistribution. NirSoft is not affiliated with this project.
-# 🔊 Sonus
+If Cremey helps you keep your sound settings clean, you can support the project on [Ko-fi](https://ko-fi.com/omoretti).
 
-**Tired of the clutter?**
+---
 
-You likely installed SteelSeries Sonar for the microphone features (ClearCast AI), not to have your Windows sound settings flooded with "Gaming," "Chat," "Media," and "Aux" channels.
+## About
 
-Sonus solves this simple problem. It automatically disables the virtual playback devices you don't use, while keeping the microphone driver fully functional.
+SteelSeries GG installs virtual audio devices for Sonar, including Gaming, Chat, Media, Aux, and Stream. These devices often change your default Windows playback settings, create audio routing bugs, and clutter the sound menu.
 
-## 📥 Download
+Cremey turns off these virtual devices automatically. It runs for three seconds when Windows starts, disables the devices you selected, and exits. It does not stay open in your system tray or use RAM in the background.
 
-You can get the latest version directly from the **[Releases Page](https://github.com/asheohto/Sonus/releases/latest)**.
+The app is written in C# and compiled with .NET 9 Native AOT. It runs directly as native code without requiring a separate .NET runtime.
 
-### 🪟 Windows 10 / 11
-1.  Download the latest release.
-2.  **Extract** the folder to a safe place (like your Documents or `C:\Program Files\`).
-3.  Run **`Sonus.exe`**.
-4.  On the first run Skylar will pop up, asking you if you want Sonus to run on startup. 
 
+
+---
 
 ## Features
-<div align="center">
-    
-![](sonusdemo.gif)
-</div>
 
-* **Preserves What Matters**
+- Native AOT binary: Starts instantly and uses zero background memory after exiting.
+- Fast device disable: Turns off unwanted Sonar endpoints in parallel.
+- Startup check: Verifies that SteelSeries GG did not recreate endpoints while Windows was booting.
+- Clean exit: Runs, cleans your audio list, and shuts down completely. No background task or tray icon.
+- Transparent notification: Shows a quick slide-in alert so you know the devices were disabled.
+- Setup wizard: Lets you pick which virtual devices to hide and which to keep.
+- Windows startup: Adds itself to startup with one click during setup.
+  
+  <img width="320" height="240" alt="0928" src="https://github.com/user-attachments/assets/20de7702-0b91-401d-aa25-c42a4d5ade3e" />
 
-    Removes the unnecessary playback clutter but keeps the Sonar Microphone enhancements active. You get the noise cancellation without the mess.
+---
 
-* **Smart Detection**
+## Installation
 
-    No more fixed timers. Sonus v2.0 actively watches for SteelSeries to load and cleans up the audio devices the exact moment they appear.
+1. Go to the [Releases](https://github.com/ashemarya/cremey/releases) page.
+2. Download the latest `Cremey.zip` and extract it to a folder.
+3. Open `Cremey.exe`.
+4. Choose the audio devices you want to disable.
+5. Check "Run Cremey automatically on startup" and click Finish.
 
-* **Silent Operation**
+Cremey will now run once every time you log in to Windows.
 
-    Runs quietly in the background (System Tray). No windows, no pop-ups, no distractions.
+### Command line options
 
-* **?? Skylar**
+| Command | Action |
+| :--- | :--- |
+| `Cremey.exe` | Cleans audio devices, shows notification, and exits. |
+| `Cremey.exe --setup` | Opens the setup window to change your settings. |
+| `Cremey.exe --now` | Cleans devices immediately without the startup wait. |
+| `Cremey.exe --notify` | Tests the slide-in notification animation. |
 
-    Features Skylar to guide you through the one-click startup process.
-
-## Notes!
-If the program fails to run during startup, makes sure that Sonus.exe is enabled in Startup Apps.
-<img width="866" height="122" alt="image" src="https://github.com/user-attachments/assets/8e1f647b-883e-40c6-aa53-48b438da99f8" />
+---
 
 ## Tags
-> steelseries, sonar, audio-fix, powershell, windows-11, virtual-audio-device.
-> problem : SteelSeries Sonar forces virtual devices named SteelSeries Sonar - Gaming, Chat, Media, and Aux into your sound settings. Even if you disable them, they come back on startup.
+
+steelseries sonar, remove steelseries sonar, disable steelseries sonar, sonar audio cleaner, steelseries bloatware remover, steelseries gg, virtual audio devices, remove virtual audio devices, windows audio cleaner, sound device manager, soundvolumeview, native aot, dotnet 9, windows 11 audio, gaming audio fix

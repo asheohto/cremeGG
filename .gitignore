@@ -1,0 +1,15 @@
+# Build artifacts
+bin/
+obj/
+
+# Package files
+*.zip
+
+# Local configuration
+CremeyConfig.txt
+SonusConfig.txt
+
+# VS Code / IDE
+.vscode/
+.vs/
+*.user
