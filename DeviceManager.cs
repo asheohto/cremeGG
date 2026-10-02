@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace Cremey;
+namespace CremeGG;
 
 public static class DeviceManager
 {

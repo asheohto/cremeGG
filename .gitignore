@@ -6,7 +6,7 @@ obj/
 *.zip
 
 # Local configuration
-CremeyConfig.txt
+CremeGGConfig.txt
 SonusConfig.txt
 
 # VS Code / IDE

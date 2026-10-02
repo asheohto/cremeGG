@@ -1,22 +1,15 @@
 <div align="center">
 
-  <img src="assets/logo.png" alt="Cremey Logo" width="180" />
+  <img src="assets/logo.png" alt="CremeGG Logo" width="180" />
 
-  # Cremey
+  # CremeGG
 
   Steelseries's virtual devices annihilator.
 
-<<<<<<< HEAD
-  [![Latest Release](https://img.shields.io/github/v/release/ashemarya/cremey?style=for-the-badge&logo=tag&color=f39c12)](https://github.com/ashemarya/cremey/releases/latest)
-  [![Downloads](https://img.shields.io/github/downloads/ashemarya/cremey/total?style=for-the-badge&logo=github&color=3498db)]([https://github.com/ashemarya/cremey/releases](https://github.com/ashemarya/cremey/releases/tag/v1.0))
+  [![Latest Release](https://img.shields.io/github/v/release/ashemarya/CremeGG?style=for-the-badge&logo=tag&color=f39c12)](https://github.com/ashemarya/CremeGG/releases/latest)
+  [![Downloads](https://img.shields.io/github/downloads/ashemarya/CremeGG/total?style=for-the-badge&logo=github&color=3498db)](https://github.com/ashemarya/CremeGG/releases)
   [![License](https://img.shields.io/badge/License-MIT-2ecc71?style=for-the-badge)](LICENSE)
   [![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-omoretti-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/omoretti)
-=======
-[![Latest Release](https://img.shields.io/github/v/release/ashemarya/cremey?style=for-the-badge&logo=tag&color=f39c12)](https://github.com/ashemarya/cremey/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/ashemarya/cremey/total?style=for-the-badge&logo=github&color=3498db)](https://github.com/ashemarya/cremey/releases)
-[![License](https://img.shields.io/badge/License-MIT-2ecc71?style=for-the-badge)](LICENSE)
-[![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-omoretti-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/omoretti)
->>>>>>> 153bb315020d197616a998ac129fbadc50970692
 
 </div>
 
@@ -26,7 +19,7 @@
 
 <a href='https://ko-fi.com/omoretti' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
-If Cremey helps you keep your sound settings clean, you can support the project on [Ko-fi](https://ko-fi.com/omoretti).
+If CremeGG helps you keep your sound settings clean, you can support the project on [Ko-fi](https://ko-fi.com/omoretti).
 
 ---
 
@@ -34,7 +27,7 @@ If Cremey helps you keep your sound settings clean, you can support the project 
 
 SteelSeries GG installs virtual audio devices for Sonar, including Gaming, Chat, Media, Aux, and Stream. These devices often change your default Windows playback settings, create audio routing bugs, and clutter the sound menu.
 
-Cremey turns off these virtual devices automatically. It runs for three seconds when Windows starts, disables the devices you selected, and exits. It does not stay open in your system tray or use RAM in the background.
+CremeGG turns off these virtual devices automatically. It runs for three seconds when Windows starts, disables the devices you selected, and exits. It does not stay open in your system tray or use RAM in the background.
 
 The app is written in C# and compiled with .NET 9 Native AOT. It runs directly as native code without requiring a separate .NET runtime.
 
@@ -58,22 +51,22 @@ The app is written in C# and compiled with .NET 9 Native AOT. It runs directly a
 
 ## Installation
 
-1. Go to the [Releases](https://github.com/ashemarya/cremey/releases) page.
-2. Download the latest `Cremey.zip` and extract it to a folder.
-3. Open `Cremey.exe`.
+1. Go to the [Releases](https://github.com/ashemarya/CremeGG/releases) page.
+2. Download the latest `CremeGG.zip` and extract it to a folder.
+3. Open `CremeGG.exe`.
 4. Choose the audio devices you want to disable.
-5. Check "Run Cremey automatically on startup" and click Finish.
+5. Check "Run CremeGG automatically on startup" and click Finish.
 
-Cremey will now run once every time you log in to Windows.
+CremeGG will now run once every time you log in to Windows.
 
 ### Command line options
 
 | Command | Action |
 | :--- | :--- |
-| `Cremey.exe` | Cleans audio devices, shows notification, and exits. |
-| `Cremey.exe --setup` | Opens the setup window to change your settings. |
-| `Cremey.exe --now` | Cleans devices immediately without the startup wait. |
-| `Cremey.exe --notify` | Tests the slide-in notification animation. |
+| `CremeGG.exe` | Cleans audio devices, shows notification, and exits. |
+| `CremeGG.exe --setup` | Opens the setup window to change your settings. |
+| `CremeGG.exe --now` | Cleans devices immediately without the startup wait. |
+| `CremeGG.exe --notify` | Tests the slide-in notification animation. |
 
 ---
 

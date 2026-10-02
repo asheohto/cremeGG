@@ -1,7 +1,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace Cremey;
+namespace CremeGG;
 
 public class SetupForm : Form
 {
@@ -24,7 +24,7 @@ public class SetupForm : Form
         _baseDir = baseDir;
 
         // Window properties
-        Text = "Cremey Setup";
+        Text = "CremeGG Setup";
         Size = new Size(400, 520);
         StartPosition = FormStartPosition.CenterScreen;
         FormBorderStyle = FormBorderStyle.FixedDialog;
@@ -110,7 +110,7 @@ public class SetupForm : Form
         // Startup checkbox
         _chkStartup = new CheckBox
         {
-            Text = "Run Cremey automatically on startup?",
+            Text = "Run CremeGG automatically on startup?",
             Location = new Point(20, currentY),
             Size = new Size(340, 25),
             Checked = File.Exists(_configFile) ? ShortcutManager.IsStartupEnabled() : true
@@ -152,7 +152,7 @@ public class SetupForm : Form
         // 2. Handle Startup
         ShortcutManager.SetStartup(_chkStartup.Checked, _exePath, _baseDir);
 
-        MessageBox.Show("Setup Complete!\nCremey will run automatically on startup.", "Cremey", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        MessageBox.Show("Setup Complete!\nCremeGG will run automatically on startup.", "CremeGG", MessageBoxButtons.OK, MessageBoxIcon.Information);
         Close();
     }
 }

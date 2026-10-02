@@ -11,15 +11,15 @@
     <OptimizationPreference>Speed</OptimizationPreference>
     <IlcOptimizationPreference>Speed</IlcOptimizationPreference>
     <ApplicationIcon>assets\logo.ico</ApplicationIcon>
-    <AssemblyName>Cremey</AssemblyName>
-    <RootNamespace>Cremey</RootNamespace>
+    <AssemblyName>CremeGG</AssemblyName>
+    <RootNamespace>CremeGG</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <None Update="SoundVolumeView.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="CremeyConfig.txt">
+    <None Update="CremeGGConfig.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="assets\**">

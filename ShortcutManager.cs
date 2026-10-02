@@ -2,14 +2,15 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace Cremey;
+namespace CremeGG;
 
 public static class ShortcutManager
 {
     private static readonly string StartupFolder = Environment.GetFolderPath(Environment.SpecialFolder.Startup);
-    private static readonly string PrimaryShortcutPath = Path.Combine(StartupFolder, "Cremey.lnk");
+    private static readonly string PrimaryShortcutPath = Path.Combine(StartupFolder, "CremeGG.lnk");
     private static readonly string[] LegacyShortcutPaths =
     [
+        Path.Combine(StartupFolder, "Cremey.lnk"), // rebrand: clean up the pre-CremeGG startup entry
         Path.Combine(StartupFolder, "Sonus.lnk"),
         Path.Combine(StartupFolder, "Sonus2.lnk")
     ];
@@ -40,7 +41,7 @@ public static class ShortcutManager
                 return true;
             }
 
-            return CreateShortcut(PrimaryShortcutPath, targetExePath, workingDirectory, "Cremey Audio Cleaner");
+            return CreateShortcut(PrimaryShortcutPath, targetExePath, workingDirectory, "CremeGG Audio Cleaner");
         }
         catch (Exception ex)
         {

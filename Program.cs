@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using System.Windows.Forms;
 
-namespace Cremey;
+namespace CremeGG;
 
 internal static class Program
 {
@@ -11,9 +11,9 @@ internal static class Program
         ApplicationConfiguration.Initialize();
 
         string baseDir = AppContext.BaseDirectory.TrimEnd('\\');
-        string exePath = Environment.ProcessPath ?? Path.Combine(baseDir, "Cremey.exe");
+        string exePath = Environment.ProcessPath ?? Path.Combine(baseDir, "CremeGG.exe");
         string toolPath = Path.Combine(baseDir, "SoundVolumeView.exe");
-        string configFile = Path.Combine(baseDir, "CremeyConfig.txt");
+        string configFile = Path.Combine(baseDir, "CremeGGConfig.txt");
 
         // Migrate legacy config if present and new config doesn't exist
         if (!File.Exists(configFile) && File.Exists(Path.Combine(baseDir, "SonusConfig.txt")))
@@ -44,7 +44,7 @@ internal static class Program
         {
             MessageBox.Show(
                 $"Error: SoundVolumeView.exe not found!\nChecked: {toolPath}",
-                "Cremey Error",
+                "CremeGG Error",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Error
             );
