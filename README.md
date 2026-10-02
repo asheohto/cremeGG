@@ -6,8 +6,8 @@
 
   Steelseries's virtual devices annihilator.
 
-  [![Latest Release](https://img.shields.io/github/v/release/ashemarya/CremeGG?style=for-the-badge&logo=tag&color=f39c12)](https://github.com/ashemarya/CremeGG/releases/latest)
-  [![Downloads](https://img.shields.io/github/downloads/ashemarya/CremeGG/total?style=for-the-badge&logo=github&color=3498db)](https://github.com/ashemarya/CremeGG/releases)
+  [![Latest Release](https://img.shields.io/github/v/release/asheohto/cremeGG?style=for-the-badge&logo=tag&color=f39c12)](https://github.com/asheohto/cremeGG/releases/latest)
+  [![Downloads](https://img.shields.io/github/downloads/asheohto/cremeGG/total?style=for-the-badge&logo=github&color=3498db)](https://github.com/asheohto/cremeGG/releases)
   [![License](https://img.shields.io/badge/License-MIT-2ecc71?style=for-the-badge)](LICENSE)
   [![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-omoretti-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/omoretti)
 
@@ -51,7 +51,7 @@ The app is written in C# and compiled with .NET 9 Native AOT. It runs directly a
 
 ## Installation
 
-1. Go to the [Releases](https://github.com/ashemarya/CremeGG/releases) page.
+1. Go to the [Releases](https://github.com/asheohto/cremeGG/releases) page.
 2. Download the latest `CremeGG.zip` and extract it to a folder.
 3. Open `CremeGG.exe`.
 4. Choose the audio devices you want to disable.
